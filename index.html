@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico" />
+    <title>Spillprosjekt</title>
+  </head>
+  <body class="main">
+    <!-- The canvas for the panning background -->
+    <div id="canvas-container">
+      <canvas id="background" width="600" height="360" tabindex="1">
+        Your browser does not support canvas. Please try again with a different
+        browser.
+      </canvas>
+
+      <div class="hidden" id="game-won">
+        <ul>
+          <li><a href="won.html">Press here</a></li>
+        </ul>
+      </div>
+      <div class="hidden" id="game-over">
+        <ul>
+          <li><a href="lost.html">Press here</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

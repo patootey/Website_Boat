@@ -1,0 +1,73 @@
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.main li {
+    list-style: none;
+    text-align: center;
+
+}
+
+.main li a {
+    color: black;
+    padding-right: 40px;
+}
+
+#canvas-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 250px;
+}
+
+canvas {
+    /*border: black 2px solid;*/
+    display: inline;
+}
+
+/*Hide focus border on canvas */
+canvas:focus-visible {
+    outline: none;
+}
+
+/* Class to be placed where something is to be hidden */
+.hidden {
+    display: none;
+}
+
+.paper-background {
+    background: #e2e1e0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paper-background li {
+    list-style: square;
+}
+
+.paper-background a {
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    margin: 2.5rem 5rem;
+    padding: .6rem;
+    background-color: #D3D3D3;
+}
+
+.paper {
+    background: #fff;
+    border-radius: 4px;
+}
+
+.depth-1 {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+}
